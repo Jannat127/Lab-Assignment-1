@@ -1,0 +1,29 @@
+# a tuple of integers
+numbers_tuple=(1,2,3,4)
+# a tuple of strings
+fruits_tuple=('apple','banana','cherry')
+# a mixed tuple 
+mixed_tuple=(1,'apple', 3.14,True)
+# a tuple with a single item
+single_item_tuple=(5,)
+fruits=('apple','banana','cherry',)
+print(fruits_tuple[0])
+print(fruits_tuple[1])
+print(fruits_tuple[-1])
+print(fruits_tuple[-2])
+tuple1=(1,2,3)
+tuple2=(4,5,6)
+combined_tuple=tuple1+tuple2
+print(combined_tuple)
+tuple1=('hello',)
+repeated_tuple=tuple1*3
+print(repeated_tuple)
+numbers=(0,1,2,3,4,5,6)
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[4:])
+fruits_tuple=('apple','banana','cherry','apple',)
+print(fruits_tuple.count('apple'))
+print(fruits.index('cherry'))
+s=fruits_tuple[0]
+print(s.count('p'))
